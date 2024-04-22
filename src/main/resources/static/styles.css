@@ -1,0 +1,28 @@
+@media screen and (min-width: 200px) {
+    /*wenn der screen min 200px weit ist, dann*/
+    h2{
+        color: lightblue;
+    }
+
+}
+
+p {
+    color: hotpink;
+    margin: 40px 20% 0 20%;
+    border:  10px solid aqua;
+    text-align: left;
+    /*font-size: 16px;*/
+    font-size: 1rem;/*1 x default size im browser*/
+}
+
+.special {
+    color: red;
+}
+
+li:nth-child(odd) {
+    color: aqua;
+}
+
+h1 {
+    color: blue;
+}
